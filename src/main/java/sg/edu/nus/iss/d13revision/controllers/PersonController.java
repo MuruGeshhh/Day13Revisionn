@@ -21,7 +21,7 @@ public class PersonController {
     @Autowired
     PersonService perSvc;
 
-    @Value("${welcome.message}")
+    @Value("${welcome.message}") //hi
     private String message;
 
     @Value("${error.message}")
